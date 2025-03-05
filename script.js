@@ -1,4 +1,21 @@
-const userAge = document.
+const inputAge = document.getElementById('input-age');
+const inputKm = document.getElementById('input-km');
+const buttonTicket = document.getElementById('submit-button');
+
+buttonTicket.addEventListener('click', function(){
+
+const userAge = parseFloat(inputAge.value);
+console.log(userAge);
+
+const userKm = parseFloat(inputKm.value);
+console.log(userKm);
+
+
+
+
+})
+
+
 
 
 // //chiedere all'utente quanti km vuole percorrere
