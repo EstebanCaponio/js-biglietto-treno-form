@@ -48,10 +48,10 @@ form.addEventListener('submit', function (event) {
         console.log(`Il costo del biglietto scontato è ${totalSenior}€`);
 
         const resultSenior = document.createElement("p");
-        resultSenior.innerText=`Il costo del biglietto scontato è ${totalSenior}€`;
+        resultSenior.innerText = `Il costo del biglietto scontato è ${totalSenior}€`;
         outputForUser.append(resultSenior);
 
-    } else {
+    } else if (userAge >= 18 && userAge <= 65) {
         let result = document.createElement("p");
         result.append(`Il costo del biglietto è ${total}€`);
         outputForUser.append(result);
