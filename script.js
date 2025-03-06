@@ -57,4 +57,7 @@ form.addEventListener('submit', function (event) {
         outputForUser.append(result);
     }
 
+    inputAge.value = "";
+    inputKm.value = "";
+
 })
